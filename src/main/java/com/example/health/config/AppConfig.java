@@ -11,6 +11,7 @@ import org.springframework.context.annotation.Configuration;
 
 import com.example.health.service.HealthCheckService;
 
+// noticed this could be clearer
 /**
  * Central configuration class that creates beans and parses
  * application properties.
