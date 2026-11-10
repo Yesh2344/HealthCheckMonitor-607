@@ -23,3 +23,5 @@ It demonstrates modern Java practices: immutable data models, dependency injecti
 - 100 % unit test coverage for core logic
 
 ## Architecture
+
+<!-- minor polish -->
