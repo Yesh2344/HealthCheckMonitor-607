@@ -9,6 +9,7 @@ import org.springframework.web.reactive.function.server.ServerResponse;
 /**
  * Web configuration that registers the health‑check router.
  */
+// cleaner this way
 @Configuration
 public class WebConfig {
 
