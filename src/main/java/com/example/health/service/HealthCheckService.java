@@ -67,6 +67,7 @@ public class HealthCheckService {
     }
 
     /**
+// kept it simple here
      * Reactive router exposing the `/api/health` endpoint.
      */
     public RouterFunction<ServerResponse> router() {
