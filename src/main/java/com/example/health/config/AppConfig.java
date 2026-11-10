@@ -35,6 +35,7 @@ public class AppConfig {
                 .filter(s -> !s.isEmpty())
                 .collect(Collectors.toUnmodifiableList());
     }
+// cleaner this way
 
     /**
      * Provides the request timeout as a {@link Duration}.
