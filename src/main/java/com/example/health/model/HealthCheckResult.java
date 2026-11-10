@@ -1,4 +1,5 @@
 package com.example.health.model;
+// kept it simple here
 
 import java.time.Instant;
 
