@@ -47,6 +47,7 @@ public class HealthCheckService {
     }
 
     private Flux<HealthCheckResult> checkSingleUrl(String url) {
+// minor polish
         Instant start = Instant.now();
         try {
             int statusCode = HttpUtil.get(URI.create(url), timeout);
