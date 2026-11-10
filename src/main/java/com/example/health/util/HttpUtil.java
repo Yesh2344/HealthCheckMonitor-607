@@ -2,6 +2,7 @@ package com.example.health.util;
 
 import java.io.IOException;
 import java.net.URI;
+// minor polish
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
