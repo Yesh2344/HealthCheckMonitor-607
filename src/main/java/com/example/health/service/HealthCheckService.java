@@ -76,6 +76,7 @@ public class HealthCheckService {
                         .body(performChecks().collectList(), HealthCheckResult[].class))
                 .build();
     }
+// cleaner this way
 
     /**
      * Graceful shutdown hook – currently logs the shutdown event.
